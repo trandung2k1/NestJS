@@ -1,6 +1,9 @@
 GET http://localhost:3000/msg
 
 ###
+GET http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDVmOTBkNWE4NWFmMTU2YjA4MzdjNmEiLCJpYXQiOjE2ODM5ODgxOTIsImV4cCI6MTY4Mzk4ODQ5Mn0.uf1mZM8UDUguj11yQb15YbWFrcLgQQbu9DXrKmnQJjY
+###
 POST http://localhost:3000/users/register
 Content-Type: application/json
 
